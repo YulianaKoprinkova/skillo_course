@@ -6,7 +6,7 @@ public class Main {
         int[] numbersArray = {3, 5, -12, 0, 24};
         int maxNumber = numbersArray[0];
 
-        for ( int number : numbersArray) {
+        for (int number : numbersArray) {
             if (maxNumber < number){
                 maxNumber = number;
             }
