@@ -7,9 +7,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 // Create a List of Tasks
-
         List<String> taskList = new ArrayList<>();
-
 
 // Add elements to the List
         taskList.add("Task 1");
@@ -19,7 +17,7 @@ public class Main {
 
 // Display the List
         System.out.println("List elements: " + taskList);
-
+// Create a list for completed tasks
         List<Integer> boolTaskList = new ArrayList<>();
         Scanner scanner = new Scanner(System.in);
 
@@ -29,6 +27,15 @@ public class Main {
             boolTaskList.add(scanner.nextInt());
 
         }
+
+       for (int indexBoolTaskList = boolTaskList.size() - 1; indexBoolTaskList > 0; indexBoolTaskList--) {
+           if (1 == boolTaskList.get(indexBoolTaskList)) {
+               taskList.remove(indexBoolTaskList);
+           }
+       }
+
+        System.out.println("List elements: " + taskList);
+
 
 
 
