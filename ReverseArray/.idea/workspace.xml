@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="859afc60-77e3-416a-8a03-bf7fbf88e404" name="Changes" comment="code update" />
+    <list default="true" id="859afc60-77e3-416a-8a03-bf7fbf88e404" name="Changes" comment="code update">
+      <change afterPath="$PROJECT_DIR$/../ArrayMaxNumber/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Days_of_Week/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Days_of_Week/.idea/vcs.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
